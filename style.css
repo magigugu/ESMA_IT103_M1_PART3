@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: rgb(231, 229, 224);
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-size-adjust: 30px;
+    color: rgb(173, 120, 173);
+    padding: 10px; 
+    padding-top: 20px; 
+	padding-left: 15px;
+    
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(99, 11, 40);
+    font-size: 30px;
+}
+
+ p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: unset;
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration-color: pink ;
+    color: rgb(99, 11, 40);
+}
+
+.tabs{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+.tabs button {
+    font-size: 20px;
+    width: 30%;
+    border: none;
+    background-color: transparent ;
+    cursor: pointer;
+    z-index: 2;
+    color: rgb(124, 82, 163);
+}
+.tabs .active {
+    background: whitesmoke;
+    height: calc(100% - 5px);
+    width: calc(30% - 10px);
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    transform: translateX(5px);
+    border-radius: inherit;
+    box-shadow: 0 2px 2px #ccc;
+}
+
