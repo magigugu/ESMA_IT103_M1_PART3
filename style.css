@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: linear-gradient{ to top orange, red ;}
+    background-color: rgb(255, 251, 239);
 }
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -62,6 +62,7 @@ h3{
 }
 
 .EduAttainment{
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: rgb(2, 122, 82);
